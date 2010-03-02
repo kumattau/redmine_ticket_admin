@@ -1,4 +1,5 @@
 require 'redmine'
+require 'ticket_admin_listener'
 
 Redmine::Plugin.register :redmine_ticket_admin do
   name 'Redmine Ticket Admin plugin'
